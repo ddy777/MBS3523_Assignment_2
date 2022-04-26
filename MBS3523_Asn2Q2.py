@@ -13,6 +13,7 @@ pos = 90
 # print(type(pos))
 
 cam = cv2.VideoCapture(0)
+font = cv2.FONT_HERSHEY_COMPLEX
 
 #import model for recognition
 model = load_model('keras_model.h5')
